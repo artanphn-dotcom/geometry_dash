@@ -1,7 +1,7 @@
 # 🎮 Dreni's Game
 
 <p align="center">
-  <img src="assets/1.png" alt="Dreni's Game Screenshot 1" width="900">
+  <img src="assets/3.png" alt="Dreni's Game Screenshot 1" width="900">
 </p>
 
 <p align="center">
@@ -104,7 +104,7 @@ The game uses a **neon cyberpunk arcade aesthetic** featuring:
 
 <p align="center">
   <img src="assets/3.png" alt="Level Select Screenshot" width="410">
-  <img src="assets/2.png" alt="Gameplay Screenshot" width="410">
+  <img src="assets/1.png" alt="Gameplay Screenshot" width="410">
 </p>
 
 ---
