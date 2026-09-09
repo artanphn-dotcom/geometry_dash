@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometry Rush</title>
+    <link rel="stylesheet" href="./css/game.css" />
+  </head>
+  <body>
+    <div id="game-shell">
+      <canvas id="game-canvas" width="1100" height="620" aria-label="Geometry Rush game area"></canvas>
+
+      <div id="hud" aria-live="polite">
+        <div id="level-name">LEVEL 1</div>
+        <div id="progress-track">
+          <div id="progress-bar"></div>
+        </div>
+        <div id="attempt-label">ATTEMPT 1</div>
+      </div>
+
+      <div id="start-screen" class="screen visible">
+        <div class="panel">
+          <p class="eyebrow">NEON ARCADE</p>
+          <h1>GEOMETRY RUSH</h1>
+          <p class="subtitle">Dash through hazard fields and clear every stage.</p>
+          <button id="start-button" class="primary-btn">PLAY</button>
+        </div>
+      </div>
+
+      <div id="death-screen" class="screen hidden">
+        <div class="panel small">
+          <h2>CRASHED!</h2>
+          <p id="death-message">Try again and beat the run.</p>
+          <button id="retry-button" class="primary-btn">RETRY</button>
+        </div>
+      </div>
+
+      <div id="complete-screen" class="screen hidden">
+        <div class="panel small">
+          <h2 id="complete-title">LEVEL COMPLETE!</h2>
+          <p id="complete-message">Stage cleared.</p>
+          <button id="next-button" class="primary-btn">NEXT LEVEL</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
