@@ -1,7 +1,7 @@
 # 🎮 Dreni's Game
 
 <p align="center">
-  <img src="assets/banner.png" alt="Dreni's Game Banner" width="900">
+  <img src="assets/1.png" alt="Dreni's Game Screenshot 1" width="900">
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ Built as a personal game project, the goal is to create something that feels **f
 ## 🕹️ Gameplay
 
 <p align="center">
-  <img src="assets/gameplay.png" alt="Gameplay Screenshot" width="850">
+  <img src="assets/2.png" alt="Gameplay Screenshot" width="850">
 </p>
 
 The objective is simple:
@@ -103,8 +103,8 @@ The game uses a **neon cyberpunk arcade aesthetic** featuring:
 * 🌟 Dynamic visual feedback
 
 <p align="center">
-  <img src="assets/level-select.png" alt="Level Select" width="410">
-  <img src="assets/gameplay-2.png" alt="Gameplay" width="410">
+  <img src="assets/3.png" alt="Level Select Screenshot" width="410">
+  <img src="assets/2.png" alt="Gameplay Screenshot" width="410">
 </p>
 
 ---
@@ -167,10 +167,9 @@ geometry-rush/
 │   └── audio.js
 │
 ├── assets/
-│   ├── banner.png
-│   ├── gameplay.png
-│   ├── gameplay-2.png
-│   └── level-select.png
+│   ├── 1.png
+│   ├── 2.png
+│   └── 3.png
 │
 └── README.md
 ```
